@@ -44,7 +44,13 @@ public class HelloWorld {
 
     }
 
+    /**
+     * test1
+     */
 
+    public static void test1(){
+        System.out.println("test1");
+    }
 
 
 }
