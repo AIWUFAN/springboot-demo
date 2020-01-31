@@ -21,8 +21,9 @@ public class AreaMapperTest {
 
     @Test
     public void selectAll(){
-        List<Area> areas = areaMapper.selectAll();
-       assertEquals(2,areas.size());
+        Area area = new Area();
+        area.setAreaName("荆门");
+        areaMapper.insert(area);
     }
 
     @Test

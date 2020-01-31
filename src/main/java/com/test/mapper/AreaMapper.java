@@ -3,8 +3,10 @@ package com.test.mapper;
 import com.test.entity.Area;
 import com.test.entity.AreaExample;
 import java.util.List;
-import org.apache.ibatis.annotations.Param;
 
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
+@Mapper
 public interface AreaMapper {
 
     List<Area> selectAll();
