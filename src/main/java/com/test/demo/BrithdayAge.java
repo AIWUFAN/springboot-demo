@@ -8,7 +8,9 @@ import java.util.Date;
 public class BrithdayAge {
     public static void main(String[] args) throws ParseException{
         getAge(parse("1994-12-28"));
+        System.out.println("3");
         System.out.println("4");
+        
     }
 
     //由出生日期获得年龄
