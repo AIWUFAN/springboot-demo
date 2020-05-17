@@ -8,8 +8,8 @@ import java.util.Date;
 public class BrithdayAge {
     public static void main(String[] args) throws ParseException{
         getAge(parse("1994-12-28"));
-        System.out.println("3");
-        System.out.println("4");
+        System.out.println("5");
+        System.out.println("6");
         
     }
 
